@@ -3,10 +3,10 @@ if (typeof window.ethereum !== 'undefined')
 console.log('MetaMask is installed')
 }
 
-const tokenAddress = '0xef50c139be0b67baab4f834d3d9a1f09d2691e02'; // replace with your own crypto address
-const tokenSymbol = 'SGC'; // replace with your own crypto symbol
-const tokenDecimals = 18; // put number of deciimals
-const tokenImage = 'https://i.imgur.com/o2EXAlM.png'; // add link to a token image
+const tokenAddress = '0x577a296d576D1E58C762408faaC2F10B5FC9d9b5'; // Crypto address for cannarewards
+const tokenSymbol = 'CAN'; // Cannarewards Symbol
+const tokenDecimals = 18; // Decimal
+const tokenImage = 'https://static.wixstatic.com/media/74673c_8f2820d7be374610a9b82aaa451bea6d~mv2.png'; // add link to a token image
 
 async function addTokenFunction() {
 
@@ -26,9 +26,9 @@ try {
   });
 
   if (wasAdded) {
-    console.log('Currency Added Successfuly');
+    console.log('Cannarewards Added Successfuly');
   } else {
-    console.log('The currency has not been added');
+    console.log('Cannarewards has not been added');
   }
 } catch (error) {
   console.log(error);
